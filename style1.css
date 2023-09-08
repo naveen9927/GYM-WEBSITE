@@ -1,0 +1,111 @@
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/9.jpg');
+    background-size: 1550px 900px;
+    width: auto;
+    display: block;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    /* border: 2px solid red; */
+
+}
+
+.left img {
+    width: 90px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    /* border: 2px solid white; */
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* border: 2px solid rgb(204, 233, 37); */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: blueviolet;
+
+}
+
+.btn {
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0px 9px;
+    color: aliceblue;
+    background-color: rgb(126, 118, 118);
+    padding: 4px 14px;
+    border: 2px solid rgb(126, 118, 118);
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(66, 52, 52);
+}
+
+.container {
+    /* border: 2px solid green; */
+    margin: 110px 5px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+.container h1{
+    text-align: center;
+}
+
+.form-group input {
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    margin: 10px auto;
+    font-size: 15px;
+    border-radius: 30px;
+    /* border: 2px solid red; */
+
+}
+.container button{
+    display: block;
+    width: 400px;
+    margin: 20px auto;
+
+
+}
